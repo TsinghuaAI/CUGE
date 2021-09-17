@@ -5,4 +5,4 @@
 
 CUGE contains high-quality Chinese natural language processing datasets, leaderboard and online evaluation platform. CUGE aims to build a comprehensive and systematic Chinese language intelligence evaluation system, form a multi-level evaluation strategy, and promote the standard evaluation of Chinese natural language processing technology in a more scientific, standardized and high-quality manner. 
 
-CUGE system and evaluation platform are still under construction and improvement, it's welcomed to initiate an issue at this project for discussion if you have any suggestions or comments for us.
+CUGE system and evaluation platform are still under construction and improvement, it's welcomed to create issues at this project for discussion if you have any suggestions or comments for us.
