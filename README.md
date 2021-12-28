@@ -16,7 +16,7 @@ CUGE contains high-quality Chinese natural language processing datasets, leaderb
 
 在CUGE的总排行榜<a href="http://cuge.baai.ac.cn/#/leaderboard">LeaderBoard</a>中，我们提供了几个基准模型的测试结果。这些基准模型分别是：
 
-*	**CPM-2** : 一种大规模的中文预训练语言模型，是清华大学自然语言处理实验室(THUNLP)和北京智源研究院联合2021年5月发布的，兼顾语言理解和语言生成的功能。这里使用了CPM-2的非MoE版本的纯中文模型，模型参数量为110亿。精简榜中展示的是CPM-2在对应数据集上fine-tune后的测试结果，复现该结果代码可以从这里获得<a href="https://github.com/TsinghuaAI/CPM-2-Finetune"> CPM-2-Finetune</a>。
+*	**CPM-2** : 一种大规模的中文预训练语言模型，是清华大学自然语言处理实验室(THUNLP)和北京智源研究院联合2021年5月发布的，兼顾语言理解和语言生成的功能。这里使用了CPM-2的非MoE版本的纯中文模型，模型参数量为110亿。精简榜中展示的是CPM-2在对应数据集上fine-tune后的测试结果，复现该结果代码可以从这里获得<a href="https://github.com/TsinghuaAI/CPM-2-Finetune"> CPM-2-Finetune</a>,对应数据集的运行脚本位置<a href="https://github.com/TsinghuaAI/CPM-2-Finetune/tree/master/scripts/full_model"> CPM-2-Finetune/tree/master/scripts/full_model</a>。
 
 *	**mT5** : 一种大规模生成式的多语言预训练语言模型，是由Google Research在2020年10月发布的。该多语言模型涵盖了110中语言。我们使用了其mT5-small、mT5-large、mT5-XXL版本作为基准模型进行了测试，这三个模型的参数量分别为3亿、12亿和130亿。该模型下载及使用请参考<a href="https://github.com/google-research/multilingual-t5"> mT5</a>: 
 
@@ -24,7 +24,7 @@ CUGE contains high-quality Chinese natural language processing datasets, leaderb
 
 In the CUGE leaderboard, we provide the test results of several baselines. These baselines are:
 
-*	<a href="https://github.com/TsinghuaAI/CPM-2-Finetune"> CPM-2</a> :  A large-scale Chinese pre-training language model was jointly released by the Natural Language Processing Laboratory of Tsinghua University (THUNLP) and the Beijing Academy of Artificial Intelligence (BAAI) in May 2021. This model has the ability of the language understanding and language generation. The non-MoE, pure Chinese version of CPM-2 is used here, and it has 11 billion parameters.  The leaderboard shows the evaluation results of the fine-tuned CPM-2 on the corresponding datasets. The code to reproduce the results can be obtained from <a href="https://github.com/TsinghuaAI/CPM-2-Finetune"> CPM-2-Finetune</a>.
+*	<a href="https://github.com/TsinghuaAI/CPM-2-Finetune"> CPM-2</a> :  A large-scale Chinese pre-training language model was jointly released by the Natural Language Processing Laboratory of Tsinghua University (THUNLP) and the Beijing Academy of Artificial Intelligence (BAAI) in May 2021. This model has the ability of the language understanding and language generation. The non-MoE, pure Chinese version of CPM-2 is used here, and it has 11 billion parameters.  The leaderboard shows the evaluation results of the fine-tuned CPM-2 on the corresponding datasets. The code to reproduce the results can be obtained from <a href="https://github.com/TsinghuaAI/CPM-2-Finetune"> CPM-2-Finetune</a>, the runing scripts can be found in <a href="https://github.com/TsinghuaAI/CPM-2-Finetune/tree/master/scripts/full_model"> CPM-2-Finetune/tree/master/scripts/full_model</a>.
 
 *	<a href="https://github.com/google-research/multilingual-t5"> mT5 </a> : is a large-scale generative multilingual pre-training language model, released by Google Research in October 2020. The multi-language model covers 110 languages. We used its **mT5-small**, **mT5-large**, and **mT5-XXL** versions as benchmark models for testing. 
 The parameters of these three models are 300 million, 1.2 billion, and 13 billion, respectively. 
