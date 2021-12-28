@@ -24,7 +24,7 @@ CUGE contains high-quality Chinese natural language processing datasets, leaderb
 
 In the Leaderboard of GLUE, we provide the test results of several baselines. These baselines are:
 
-*	<a href="https://github.com/TsinghuaAI/CPM-2-Pretrain"> CPM-2</a> :  A large-scale Chinese pre-training language model was jointly released by the Natural Language Processing Laboratory of Tsinghua University (THUNLP) and the Beijing Academy of Artificial Intelligence (BAAI) in May 2021. This model has the ability of the language understanding and language generation. The non-MoE, pure Chinese version of CPM-2 is used here, and it has 11 billion parameters. For download and use of CPM-2, please refer to 
+*	<a href="https://github.com/TsinghuaAI/CPM-2-Pretrain"> CPM-2</a> :  A large-scale Chinese pre-training language model was jointly released by the Natural Language Processing Laboratory of Tsinghua University (THUNLP) and the Beijing Academy of Artificial Intelligence (BAAI) in May 2021. This model has the ability of the language understanding and language generation. The non-MoE, pure Chinese version of CPM-2 is used here, and it has 11 billion parameters. 
 
 *	<a href="https://github.com/google-research/multilingual-t5"> mT5 </a> : is a large-scale generative multilingual pre-training language model, released by Google Research in October 2020. The multi-language model covers 110 languages. We used its mT5-small, mT5-large, and mT5-XXL versions as benchmark models for testing. 
 The parameters of these three models are 300 million, 1.2 billion, and 13 billion, respectively. 
