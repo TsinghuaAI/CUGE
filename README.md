@@ -30,7 +30,7 @@ In the CUGE leaderboard, we provide the test results of several baselines. These
 The parameters of these three models are 300 million, 1.2 billion, and 13 billion, respectively. 
 
 
-## 问题反馈
+## 问题反馈（Issues）
 智源指数体系和评测平台仍在不断建设和完善中，如果您对我们有任何建议或意见，欢迎在此项目处发起Issue进行讨论。
 
 CUGE is still under construction and improvement. It's welcomed to create issues at this project for discussion if you have any suggestions or comments for us.
