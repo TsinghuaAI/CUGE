@@ -22,7 +22,7 @@ CUGE contains high-quality Chinese natural language processing datasets, leaderb
 *	**mT5** : 是一种大规模生成式的多语言预训练语言模型，是由Google Research在2020年10月发布的。该多语言模型涵盖了110中语言。我们使用了其mT5-small、mT5-large、mT5-XXL版本作为基准模型进行了测试，这三个模型的参数量分别为3亿、12亿和130亿。该模型下载及使用请参考<a href="https://github.com/google-research/multilingual-t5"> mT5</a>: 
 
 
-In the Leaderboard of GLUE, we provide the test results of several baselines. These baselines are:
+In the CUGE leaderboard, we provide the test results of several baselines. These baselines are:
 
 *	<a href="https://github.com/TsinghuaAI/CPM-2-Pretrain"> CPM-2</a> :  A large-scale Chinese pre-training language model was jointly released by the Natural Language Processing Laboratory of Tsinghua University (THUNLP) and the Beijing Academy of Artificial Intelligence (BAAI) in May 2021. This model has the ability of the language understanding and language generation. The non-MoE, pure Chinese version of CPM-2 is used here, and it has 11 billion parameters. 
 
