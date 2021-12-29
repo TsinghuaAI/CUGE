@@ -7,7 +7,7 @@ CUGE contains high-quality Chinese natural language processing datasets, leaderb
 # CUGE (Chinese Language Understanding and Generation Evaluation Benchmark)
 
 <p align="left">
-<a href="#Introduction">Introduction</a> • <a href="#install">Installation</a> • <a href="#Baselines">Baselines</a> • <a href="#Issues">Issues</a>
+<a href="#Introduction">Introduction</a> • <a href="#Baselines">Baselines</a> • <a href="#Issues">Issues</a>
 <br>
 </p>
 
