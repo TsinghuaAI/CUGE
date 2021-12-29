@@ -7,7 +7,7 @@ CUGE contains high-quality Chinese natural language processing datasets, leaderb
 # CUGE (Chinese Language Understanding and Generation Evaluation Benchmark)
 
 <p align="left">
-<a href="#Introduction">Introduction</a> • <a href="#Baselines">Baselines</a> • <a href="#Issues">Issues</a> • <a href="http://cuge.baai.ac.cn/#/" target="_blank">Website</a>
+<a href="#Introduction">Introduction</a> • <a href="#Baselines">Baselines & Code</a> • <a href="#Issues">Issues</a> • <a href="http://cuge.baai.ac.cn/#/" target="_blank">Website</a>
 <br>
 </p>
 
@@ -20,7 +20,7 @@ CUGE contains high-quality Chinese natural language processing datasets, leaderb
 
 <div id="Baselines"></div>
 
-## 基准说明(Baselines in Leaderboard)
+## 基准&代码(Baselines & Code)
 
 在CUGE的总排行榜<a href="http://cuge.baai.ac.cn/#/leaderboard">LeaderBoard</a>中，我们提供了几个基准模型的测试结果。这些基准模型分别是：
 
