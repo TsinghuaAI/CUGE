@@ -22,11 +22,11 @@ CUGE contains high-quality Chinese natural language processing datasets, leaderb
 
 ## 基准&代码 (Baselines & Code)
 
-在CUGE的总排行榜<a href="http://cuge.baai.ac.cn/#/leaderboard">Leaderboard</a>中，我们提供了几个基准模型的测试结果。这些基准模型分别是：
+在CUGE的总排行榜<a href="http://cuge.baai.ac.cn/#/leaderboard">LeaderBoard</a>中，我们提供了几个基准模型的测试结果。这些基准模型分别是：
 
 *	**CPM-2** : 一种大规模的中文预训练语言模型，是清华大学自然语言处理实验室(THUNLP)和北京智源研究院联合2021年5月发布的，兼顾语言理解和语言生成的功能。这里使用了CPM-2的非MoE版本的纯中文模型，模型参数量为110亿。精简榜中展示的是CPM-2在对应数据集上fine-tune后的测试结果，复现该结果代码可以从这里获得<a href="https://github.com/TsinghuaAI/CPM-2-Finetune"> CPM-2-Finetune</a>, 精简榜数据集fine-tune脚本<a href="https://github.com/TsinghuaAI/CPM-2-Finetune/tree/master/scripts/full_model"> CPM-2-Finetune/tree/master/scripts/full_model</a>。
 
-*	**mT5** : 一种大规模生成式的多语言预训练语言模型，是由Google Research在2020年10月发布的。该多语言模型涵盖了110中语言。我们使用了其mT5-small、mT5-large、mT5-XXL版本作为基准模型进行了测试，这三个模型的参数量分别为3亿、12亿和130亿。该模型下载及使用请参考<a href="https://github.com/google-research/multilingual-t5"> mT5</a>: 
+*	**mT5** : 一种大规模生成式的多语言预训练语言模型，是由Google Research在2020年10月发布的。该多语言模型涵盖了110中语言。我们使用了其mT5-small、mT5-large、mT5-XXL版本作为基准模型进行了测试，这三个模型的参数量分别为3亿、12亿和130亿。该模型下载及使用请参考<a href="https://github.com/google-research/multilingual-t5"> mT5</a>。
 
 ![leaderboard](./Leaderboard_Liteboard.png)
 
